@@ -1,0 +1,9 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:cc.imorning.silk/AudioConfig.AudioChannelConfig///PointingToDeclaration/cc/imorning/silk/AudioConfig.AudioChannelConfig.html
+$dokka.location:cc.imorning.silk/AudioConfig.AudioFormat///PointingToDeclaration/cc/imorning/silk/AudioConfig.AudioFormat.html
+$dokka.location:cc.imorning.silk/AudioConfig.AudioMaxSampleRate///PointingToDeclaration/cc/imorning/silk/AudioConfig.AudioMaxSampleRate.html
+$dokka.location:cc.imorning.silk/AudioConfig.AudioSampleRate///PointingToDeclaration/cc/imorning/silk/AudioConfig.AudioSampleRate.html
+$dokka.location:cc.imorning.silk/SilkJni.Companion///PointingToDeclaration/cc/imorning/silk/SilkJni.Companion.html
+cc.imorning.silk
+
