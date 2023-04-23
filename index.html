@@ -1405,7 +1405,7 @@
                     <div>
                         <span class="inlineTitle">长回复</span>
                         <label class="switch-slide">
-                            <input type="checkbox" id="enableLongReply" hidden />
+                            <input type="checkbox" id="enableLongReply" checked hidden />
                             <label for="enableLongReply" class="switch-slide-label"></label>
                         </label>
                     </div>
@@ -2764,6 +2764,14 @@
             if (localKey) {
                 customAPIKey = localKey;
                 keyEle.value = localKey;
+            } else {
+                var initApiKey = "";
+                while ("" == initApiKey) {
+                    initApiKey = prompt("请输入API Key:");
+                }
+                customAPIKey = initApiKey;
+                keyEle.value = initApiKey;
+                localStorage.setItem("APIKey", initApiKey);
             }
             keyEle.onchange = () => {
                 customAPIKey = keyEle.value;
